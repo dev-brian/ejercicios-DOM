@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Colors</title>
+    <style>
+        body{
+            width: 100vw;
+            height: 100vh;
+            display: grid;
+            place-items: center;
+            background-color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+    <div class="container"></div>
+    <button id="btnChange">Cambia el color</button>
+        <label for="red">red</label>
+        <input type="range" name="red" id="btnRed" min="0" max="255">
+        <label for="blue">blue</label>
+        <input type="range" name="blue" id="btnBlue" min="0" max="255">
+        <label for="green">green</label>
+        <input type="range" name="green" id="btnGreen" min="0" max="255">
+        <p id="textColors">#</p>
+    </div>
+    
+    <script src="./app.js"></script>
+</body>
+</html>
