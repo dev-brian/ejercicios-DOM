@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dibujo con Canvas</title>
+    <title>Mi dibujo Bounce con Canvas y JavaScript</title>
     <style>
-        body{
+        body {
             margin: 0;
             padding: 0;
             display: grid;
@@ -14,17 +15,41 @@
             height: 100vh;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             text-align: center;
-            background-color:#2f2f2f;
+            background-color: #2f2f2f;
             color: white;
         }
-        #lienzo{background-color: aliceblue;}
+
+        #lienzo {
+            background-color: aliceblue;
+        }
+
+        .back-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            padding: 10px 20px;
+            background-color: purple;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .back-button:hover {
+            background-color: blueviolet;
+        }
     </style>
 </head>
+
 <body>
+    <a href="javascript:history.back()" class="back-button">Regresar</a>
     <div class="container">
-        <h1>Mi dibujo con Canvas y JavaScript</h1>
+        <h1>Mi dibujo Bounce con Canvas y JavaScript</h1>
         <canvas id="lienzo" width="600" height="400"></canvas>
     </div>
     <script src="./app.js"></script>
 </body>
+
 </html>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dibujo Animado con Canvas</title>
+    <title>Dibujo con Canvas</title>
     <style>
         body {
             margin: 0;
@@ -17,6 +17,27 @@
             text-align: center;
             background-color: #2f2f2f;
             color: white;
+        }
+
+        #lienzo {
+            background-color: rgba(10, 136, 6, 0.566);
+        }
+
+        .container {
+            display: grid;
+            align-items: center;
+        }
+
+        button {
+            display: grid;
+            place-items: center;
+            text-align: center;
+            padding: 10px 20px;
+            border: none;
+            background-color: #c3d73e;
+            color: rgb(0, 0, 0);
+            border-radius: 10px;
+            cursor: pointer;
         }
 
         .back-button {
@@ -36,17 +57,16 @@
         .back-button:hover {
             background-color: blueviolet;
         }
-
-        #lienzo {
-            background-color: aliceblue;
-        }
     </style>
 </head>
 
 <body>
     <a href="javascript:history.back()" class="back-button">Regresar</a>
     <div class="container">
-        <h1>Mi dibujo animado con Canvas y JavaScript</h1>
+        <h1>Mi juego con JavaScript</h1>
+        <h2 id="bestScore">Mejor puntuacion:</h2>
+        <h3 id="score">Tu puntuación</h3>
+        <button id="reset">Reinicia el Juego</button>
         <canvas id="lienzo" width="600" height="400"></canvas>
     </div>
     <script src="./app.js"></script>

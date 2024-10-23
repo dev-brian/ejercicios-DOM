@@ -16,7 +16,7 @@ ctx.fill();
 //backgroung
 ctx.fillStyle = "rgb(15, 15, 97)";
 ctx.beginPath();
-ctx.fillRect(0,0,600,400);
+ctx.fillRect(0, 0, 600, 400);
 ctx.fill();
 /* //cara feliz
 ctx.fillStyle = "yellow";
@@ -166,7 +166,7 @@ ctx.beginPath();
 ctx.fillRect(440, 240, 160, 160);
 ctx.fill();
 //detalles
-ctx.fillStyle =" rgb(255, 106, 0)";
+ctx.fillStyle = " rgb(255, 106, 0)";
 ctx.beginPath();
 ctx.fillRect(460, 240, 10, 10);
 ctx.fillRect(490, 240, 20, 10);
@@ -255,8 +255,8 @@ ctx.stroke();
 ctx.fill();
 ctx.fillStyle = "black";
 ctx.beginPath();
-ctx.fillRect(295,280, 10, 40);
-ctx.fillRect(285,300, 30, 10);
+ctx.fillRect(295, 280, 10, 40);
+ctx.fillRect(285, 300, 30, 10);
 
 
 
@@ -284,27 +284,27 @@ ctx.fill();
 
 //araña
 //telaraña
-ctx.fillStyle= "rgba(255, 246, 240"
+ctx.fillStyle = "rgba(255, 246, 240"
 ctx.beginPath();
-ctx.fillRect(200,0, 10, 100);
+ctx.fillRect(200, 0, 10, 100);
 ctx.stroke();
 ctx.fill();
 //cuerpo de la araña
-ctx.fillStyle= "black"
+ctx.fillStyle = "black"
 ctx.beginPath();
-ctx.fillRect(200,100, 10, 150);
-ctx.fillRect(180,110, 50, 50);
-ctx.fillRect(190,160, 30, 30);
-ctx.fillRect(175,190, 60, 70);
+ctx.fillRect(200, 100, 10, 150);
+ctx.fillRect(180, 110, 50, 50);
+ctx.fillRect(190, 160, 30, 30);
+ctx.fillRect(175, 190, 60, 70);
 ctx.stroke();
 ctx.fill();
-ctx.fillStyle= "red"
+ctx.fillStyle = "red"
 ctx.beginPath();
 ctx.moveTo(181, 255)
 ctx.lineTo(230, 255)
 ctx.lineTo(205, 230);
 ctx.fill();
-ctx.fillStyle= "red"
+ctx.fillStyle = "red"
 ctx.beginPath();
 ctx.moveTo(190, 220)
 ctx.lineTo(220, 220)
@@ -312,64 +312,64 @@ ctx.lineTo(205, 230);
 ctx.fill();
 //patas
 //1derecha
-ctx.fillStyle= "black"
+ctx.fillStyle = "black"
 ctx.beginPath();
-ctx.fillRect(230,130, 30, 10);
-ctx.fillRect(250,110, 10, 30);
-ctx.fillRect(240,100, 10, 10);
+ctx.fillRect(230, 130, 30, 10);
+ctx.fillRect(250, 110, 10, 30);
+ctx.fillRect(240, 100, 10, 10);
 ctx.stroke();
 ctx.fill();
 //2derecha
-ctx.fillStyle= "black"
+ctx.fillStyle = "black"
 ctx.beginPath();
-ctx.fillRect(220,170, 60, 10);
-ctx.fillRect(280,140, 10, 30);
-ctx.fillRect(270,130, 10, 10);
+ctx.fillRect(220, 170, 60, 10);
+ctx.fillRect(280, 140, 10, 30);
+ctx.fillRect(270, 130, 10, 10);
 ctx.stroke();
 ctx.fill();
 //3derecha
-ctx.fillStyle= "black"
+ctx.fillStyle = "black"
 ctx.beginPath();
-ctx.fillRect(230,200, 60, 10);
-ctx.fillRect(290,210, 10, 40);
-ctx.fillRect(280,250, 10, 10);
+ctx.fillRect(230, 200, 60, 10);
+ctx.fillRect(290, 210, 10, 40);
+ctx.fillRect(280, 250, 10, 10);
 ctx.stroke();
 ctx.fill();
 //4derecha
-ctx.fillStyle= "black"
+ctx.fillStyle = "black"
 ctx.beginPath();
-ctx.fillRect(230,240, 30, 10);
-ctx.fillRect(260,250, 10, 20);
-ctx.fillRect(250,270, 10, 10);
+ctx.fillRect(230, 240, 30, 10);
+ctx.fillRect(260, 250, 10, 20);
+ctx.fillRect(250, 270, 10, 10);
 ctx.stroke();
 ctx.fill();
 //1izquierda
-ctx.fillStyle= "black"
+ctx.fillStyle = "black"
 ctx.beginPath();
-ctx.fillRect(160,120, 20, 10);
-ctx.fillRect(150,90, 10, 30);
-ctx.fillRect(160,80, 10, 10);
+ctx.fillRect(160, 120, 20, 10);
+ctx.fillRect(150, 90, 10, 30);
+ctx.fillRect(160, 80, 10, 10);
 ctx.stroke();
 ctx.fill();
 //2izquierda
-ctx.fillStyle= "black"
+ctx.fillStyle = "black"
 ctx.beginPath();
-ctx.fillRect(150,170, 40, 10);
-ctx.fillRect(140,140, 10, 30);
+ctx.fillRect(150, 170, 40, 10);
+ctx.fillRect(140, 140, 10, 30);
 ctx.stroke();
 ctx.fill();
 //3izquierda
-ctx.fillStyle= "black"
+ctx.fillStyle = "black"
 ctx.beginPath();
-ctx.fillRect(130,200, 50, 10);
-ctx.fillRect(120,170, 10, 30);
+ctx.fillRect(130, 200, 50, 10);
+ctx.fillRect(120, 170, 10, 30);
 ctx.stroke();
 ctx.fill();
 //4izquierda
-ctx.fillStyle= "black"
+ctx.fillStyle = "black"
 ctx.beginPath();
-ctx.fillRect(150,240, 30, 10);
-ctx.fillRect(140,250, 10, 10);
+ctx.fillRect(150, 240, 30, 10);
+ctx.fillRect(140, 250, 10, 10);
 ctx.stroke();
 ctx.fill();
 //ojo izquierdo

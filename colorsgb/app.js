@@ -1,5 +1,5 @@
 const body = document.querySelector('body');
-const btnChange = document.querySelector('#btnChange'); 
+const btnChange = document.querySelector('#btnChange');
 const textColors = document.querySelector('#textColors');
 const btnRed = document.querySelector('#btnRed');
 const btnBlue = document.querySelector('#btnBlue');
@@ -56,11 +56,11 @@ btnGreen.addEventListener('input', rgbColor);
 
 /* const changeColor = () => {
     const color = prompt ('Ingresa un color:')
-    
+
     const randomColor = ['A','B,','C','D,','E','F','1','2','3','4','5','6','7','8','9'];
     const color =  Math.floor(Math.random()*16);
     console.log(randomColor);
-    body.style.backgroundColor = color; 
+    body.style.backgroundColor = color;
 }
 
 

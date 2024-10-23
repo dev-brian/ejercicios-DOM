@@ -31,14 +31,15 @@
     background-color: rgba(0, 128, 0, 0.240);
 }
 
-h1{
+h1 {
     text-align: center;
 }
 
-.form{
-    align-items:center;
-    text-align:center;
+.form {
+    align-items: center;
+    text-align: center;
 }
+
 .form input {
     padding: 10px;
     border: 1px solid #ccc;
@@ -46,6 +47,7 @@ h1{
     margin-right: 10px;
     width: 70%;
 }
+
 .form button {
     padding: 10px 20px;
     border: none;
@@ -54,8 +56,9 @@ h1{
     border-radius: 10px;
     cursor: pointer;
 }
+
 .container {
-    background-color:aliceblue;
+    background-color: aliceblue;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px #f2f2f278;
@@ -78,4 +81,22 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+}
+
+.back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px 20px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.back-button:hover {
+    background-color: blueviolet;
 }

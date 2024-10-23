@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: grid;
+            width: 100vw;
+            height: 100vh;
+            place-items: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background: linear-gradient(to top, #1d47c5, aliceblue);
+        }
+
+        h1 {
+            text-align: center;
+            color: aliceblue;
+        }
+
+        .parent {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            grid-column-gap: 10px;
+            grid-row-gap: 10px;
+        }
+
+        .div1 {
+            grid-area: 1 / 1 / 2 / 3;
+        }
+
+        .div2,
+        .div3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        a {
+            border-radius: 5px;
+            width: 300px;
+            text-align: center;
+            border: none;
+            background-color: purple;
+            color: white;
+            padding: 15px 30px;
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        a:hover {
+            background-color: blueviolet;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="div1">
+            <h1>Ejercicios DOM</h1>
+        </div>
+        <div class="div2">
+            <a href="./colorsgb/index.html">Colores</a>
+        </div>
+        <div class="div3">
+            <a href="./square/index.html">Cuadro</a>
+        </div>
+        <div class="div3">
+            <a href="./dibujojs/index.html">Mi dibujo en canvas</a>
+        </div>
+        <div class="div3">
+            <a href="./animado/">Cuadro Animado</a>
+        </div>
+        <div class="div3">
+            <a href="./bounce/">Bounce</a>
+        </div>
+        <div class="div3">
+            <a href="./game/index.html">Game Snake</a>
+        </div>
+        <div class="div3">
+            <a href="./todoapp/index.html">ToDo App</a>
+        </div>
+    </div>
+</body>
+
+</html>

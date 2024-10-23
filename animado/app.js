@@ -1,6 +1,6 @@
 const lienzo = document.querySelector("#lienzo");
 const ctx = lienzo.getContext("2d");
-let x = 287;
+let x = 296;
 let y = 198;
 let width = 6;
 let height = 4;

@@ -68,9 +68,9 @@ const crearObjeto = (tarea) => {
     return div;
 };
 
-arrayTareas = localStorage.getItem('tarea') 
-    ? JSON.parse(localStorage.getItem('tarea')) 
-    : []; 
+arrayTareas = localStorage.getItem('tarea')
+    ? JSON.parse(localStorage.getItem('tarea'))
+    : [];
 creaDivs();
 
 myForm.addEventListener("submit", (e) => {

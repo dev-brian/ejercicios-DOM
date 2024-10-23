@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>square</title>
+    <title>Square</title>
     <style>
         .container {
             border: 1px solid black;
-            width: 50vw;
-            height: 50vh;
+            width: 700px;
+            height: 700px;
             grid-area: 1 / 2 / 2 / 3;
             /* border-radius:  
             box-shadow: */
@@ -21,9 +21,11 @@
         }
 
         body {
-
             display: grid;
             place-items: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: #2f2f2f;
+            color: aliceblue;
         }
 
         .parent {
@@ -36,19 +38,36 @@
 
         .div1 {
             grid-area: 1 / 1 / 2 / 2;
+            margin-top: 50px;
+        }
+
+        .back-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            padding: 10px 20px;
+            background-color: purple;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .back-button:hover {
+            background-color: blueviolet;
         }
 
         input {
-            margin: 10px;
-        }
-
-        label {
-            margin: 10px;
+            width: 150px;
         }
     </style>
 </head>
 
 <body>
+    <a href="javascript:history.back()" class="back-button">Regresar</a>
+
     <div class="parent">
 
 
@@ -56,23 +75,30 @@
         </div>
 
         <div class="div1">
-            <label for="width">width</label>
+
+            <h2>Cuadro</h2>
+            <h4>Medidas</h4>
+            <label for="width">Width</label>
             <input type="range" name="width" id="width" min="50" max="700">
-            <label for="height">height</label>
+            <label for="height">Height</label>
             <input type="range" name="height" id="height" min="50" max="700">
-            <label for="radius">border Radius</label>
+            <label for="radius">Border Radius</label>
             <input type="range" name="radius" id="radius" min="0" max="100">
-            <label for="color">background-color </label>
+            <h4>Color</h4>
+            <label for="color">Background Color </label>
             <input type="range" name="color" id="color" min="0" max="358">
-            <label for="opacity">opacity</label>
+            <label for="opacity">Opacity</label>
             <input type="range" name="opacity" id="opacity" min="0" max="1" step="0.001">
-            <label for="shadowX">shadowX</label>
+            <h2>Sombra</h2>
+            <h4>Posición</h4>
+            <label for="shadowX">ShadowX</label>
             <input type="range" name="shadowX" id="shadowX" min="-100" max="100">
-            <label for="shadowY">shadowY</label>
+            <label for="shadowY">ShadowY</label>
             <input type="range" name="shadowY" id="shadowY" min="-100" max="100">
-            <label for="shadowOpacity">shadowOpacity</label>
+            <h4>Color</h4>
+            <label for="shadowOpacity">Shadow Opacity</label>
             <input type="range" name="shadowOpacity" id="shadowOpacity" min="0" max="100">
-            <label for="shadowColor">shadowColor </label>
+            <label for="shadowColor">Shadow Color </label>
             <input type="range" name="shadowColor" id="shadowColor" min="0" max="358">
         </div>
 
